@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body {
+    background-image: url(../image/stalker.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 10px;
+    height: 10%;
+    } 
+
+main {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;    
+    }
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: var(--titulo);
+    background-color: var(--titulo);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(68, 67, 67);  
+    }
+
+button:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.534);
+    transition-duration: 0.40s;
+    background-color: rgba(11, 1, 39, 0.219);
+    }
+
+button:active {
+    background-color: rgb(0, 0, 0);
+    transform: translateY(4px);
+    background-color: rgb(0, 0, 0);
+    }
+
+
+#root {
+    --bg: #000000d7;
+    --titulo: #ffffff;
+    --secundaria:  #000000;
+    --terciaria: #002046;
+    }   

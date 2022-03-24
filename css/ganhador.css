@@ -1,0 +1,44 @@
+#ganhador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    background: var(--bg);
+    backdrop-filter: blur (10px);
+    border: 20px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    width: 95%;
+    height: 350px;
+    align-items: center;
+   
+    }
+
+.ganhadorTt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: var(--titulo);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    padding: 10px;
+    transform: scale(1.1);
+}
+.ganhadorTt:hover{   
+    color: var(--secundaria);
+    transition-duration: 0.40s;
+}
+.ganhadorText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: var(--titulo);
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+.trydenovo {
+    padding-bottom: 25px;
+}
